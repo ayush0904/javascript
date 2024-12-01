@@ -1,0 +1,105 @@
+{
+    "store": {
+      "categories": [
+        {
+          "id": 1,
+          "name": "Electronics",
+          "products": [
+            {
+              "id": 101,
+              "name": "Smartphone",
+              "brand": "BrandA",
+              "price": 699,
+              "inStock": true,
+              "specs": {
+                "color": "Black",
+                "memory": "128GB"
+              }
+            },
+            {
+              "id": 102,
+              "name": "Laptop",
+              "brand": "BrandB",
+              "price": 1299,
+              "inStock": false,
+              "specs": {
+                "color": "Silver",
+                "memory": "256GB"
+              }
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Home Appliances",
+          "products": [
+            {
+              "id": 201,
+              "name": "Refrigerator",
+              "brand": "BrandC",
+              "price": 499,
+              "inStock": true,
+              "specs": {
+                "color": "White",
+                "capacity": "300L"
+              }
+            },
+            {
+              "id": 202,
+              "name": "Microwave",
+              "brand": "BrandD",
+              "price": 99,
+              "inStock": true,
+              "specs": {
+                "color": "Black",
+                "capacity": "20L"
+              }
+            }
+          ]
+        }
+      ],
+      "customers": [
+        {
+          "id": 1,
+          "name": "Alice",
+          "email": "alice@example.com",
+          "orders": [
+            {
+              "orderId": 301,
+              "date": "2023-01-15",
+              "items": [
+                {
+                  "productId": 101,
+                  "quantity": 1
+                },
+                {
+                  "productId": 201,
+                  "quantity": 1
+                }
+              ],
+              "total": 1198
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Bob",
+          "email": "bob@example.com",
+          "orders": [
+            {
+              "orderId": 302,
+              "date": "2023-02-20",
+              "items": [
+                {
+                  "productId": 202,
+                  "quantity": 2
+                }
+              ],
+              "total": 198
+            }
+          ]
+        }
+      ]
+    }
+  }
+  
